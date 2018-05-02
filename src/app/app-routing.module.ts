@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomepageComponent } from './homepage/homepage.component';
 import { OrderPageComponent } from './order-page/order-page.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { OrderSuccessComponent } from './order-success/order-success.component';
 
 const routes: Routes = [
   {
@@ -13,6 +14,10 @@ const routes: Routes = [
   {
     path: 'order',
     component: OrderPageComponent
+  },
+  {
+    path: 'order/:id/success',
+    component: OrderSuccessComponent
   },
   {
     path: '**',

@@ -11,6 +11,7 @@ import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { OrderPageComponent } from './order-page/order-page.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { OrderSuccessComponent } from './order-success/order-success.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     AppComponent,
     HomepageComponent,
     OrderPageComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    OrderSuccessComponent
   ],
   imports: [
     BrowserModule,
