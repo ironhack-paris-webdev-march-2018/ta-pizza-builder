@@ -1,0 +1,23 @@
+<form (ngSubmit)="orderPizza()">
+  <label>
+    Tomato
+      <input [(ngModel)]="ings.tomato" type="checkbox" name="tomato">
+  </label>
+
+  <label>
+    Onion
+      <input [(ngModel)]="ings.onion" type="checkbox" name="onion">
+  </label>
+
+  <label>
+    Pepperoni
+      <input [(ngModel)]="ings.pepperoni" type="checkbox" name="pepperoni">
+  </label>
+
+  <label>
+    Extra Cheese
+      <input [(ngModel)]="ings.extraCheese" type="checkbox" name="extraCheese">
+  </label>
+
+  <button>Place Your Order!</button>
+</form>
