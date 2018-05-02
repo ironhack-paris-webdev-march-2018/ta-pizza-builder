@@ -3,6 +3,7 @@ export class PizzaIngs {
     public tomato: boolean = false,
     public onion: boolean = false,
     public pepperoni: boolean = false,
-    public extraCheese: boolean = false
-  ) { }
+    public extraCheese: boolean = false,
+    public size: string = "large"
+  ) {}
 }
